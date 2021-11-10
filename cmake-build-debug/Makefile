@@ -129,6 +129,78 @@ Laboratoire5_Chrono/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/build
 .PHONY : Laboratoire5_Chrono/fast
 
+Fonctions/Generateur/generateur.o: Fonctions/Generateur/generateur.cpp.o
+.PHONY : Fonctions/Generateur/generateur.o
+
+# target to build an object file
+Fonctions/Generateur/generateur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.o
+.PHONY : Fonctions/Generateur/generateur.cpp.o
+
+Fonctions/Generateur/generateur.i: Fonctions/Generateur/generateur.cpp.i
+.PHONY : Fonctions/Generateur/generateur.i
+
+# target to preprocess a source file
+Fonctions/Generateur/generateur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.i
+.PHONY : Fonctions/Generateur/generateur.cpp.i
+
+Fonctions/Generateur/generateur.s: Fonctions/Generateur/generateur.cpp.s
+.PHONY : Fonctions/Generateur/generateur.s
+
+# target to generate assembly for a file
+Fonctions/Generateur/generateur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.s
+.PHONY : Fonctions/Generateur/generateur.cpp.s
+
+Fonctions/Saisie/saisie.o: Fonctions/Saisie/saisie.cpp.o
+.PHONY : Fonctions/Saisie/saisie.o
+
+# target to build an object file
+Fonctions/Saisie/saisie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.o
+.PHONY : Fonctions/Saisie/saisie.cpp.o
+
+Fonctions/Saisie/saisie.i: Fonctions/Saisie/saisie.cpp.i
+.PHONY : Fonctions/Saisie/saisie.i
+
+# target to preprocess a source file
+Fonctions/Saisie/saisie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.i
+.PHONY : Fonctions/Saisie/saisie.cpp.i
+
+Fonctions/Saisie/saisie.s: Fonctions/Saisie/saisie.cpp.s
+.PHONY : Fonctions/Saisie/saisie.s
+
+# target to generate assembly for a file
+Fonctions/Saisie/saisie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.s
+.PHONY : Fonctions/Saisie/saisie.cpp.s
+
+Fonctions/Temps/temps.o: Fonctions/Temps/temps.cpp.o
+.PHONY : Fonctions/Temps/temps.o
+
+# target to build an object file
+Fonctions/Temps/temps.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.o
+.PHONY : Fonctions/Temps/temps.cpp.o
+
+Fonctions/Temps/temps.i: Fonctions/Temps/temps.cpp.i
+.PHONY : Fonctions/Temps/temps.i
+
+# target to preprocess a source file
+Fonctions/Temps/temps.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.i
+.PHONY : Fonctions/Temps/temps.cpp.i
+
+Fonctions/Temps/temps.s: Fonctions/Temps/temps.cpp.s
+.PHONY : Fonctions/Temps/temps.s
+
+# target to generate assembly for a file
+Fonctions/Temps/temps.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Laboratoire5_Chrono.dir/build.make CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.s
+.PHONY : Fonctions/Temps/temps.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Laboratoire5_Chrono"
+	@echo "... Fonctions/Generateur/generateur.o"
+	@echo "... Fonctions/Generateur/generateur.i"
+	@echo "... Fonctions/Generateur/generateur.s"
+	@echo "... Fonctions/Saisie/saisie.o"
+	@echo "... Fonctions/Saisie/saisie.i"
+	@echo "... Fonctions/Saisie/saisie.s"
+	@echo "... Fonctions/Temps/temps.o"
+	@echo "... Fonctions/Temps/temps.i"
+	@echo "... Fonctions/Temps/temps.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

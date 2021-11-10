@@ -79,17 +79,62 @@ CMakeFiles/Laboratoire5_Chrono.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Laboratoire5_Chrono.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bes/CLionProjects/Laboratoire5-Chrono/main.cpp -o CMakeFiles/Laboratoire5_Chrono.dir/main.cpp.s
 
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.o: CMakeFiles/Laboratoire5_Chrono.dir/flags.make
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.o: ../Fonctions/Saisie/saisie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bes/CLionProjects/Laboratoire5-Chrono/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.o -c /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.cpp
+
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.cpp > CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.i
+
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.cpp -o CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.s
+
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.o: CMakeFiles/Laboratoire5_Chrono.dir/flags.make
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.o: ../Fonctions/Generateur/generateur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bes/CLionProjects/Laboratoire5-Chrono/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.o -c /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Generateur/generateur.cpp
+
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Generateur/generateur.cpp > CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.i
+
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Generateur/generateur.cpp -o CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.s
+
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.o: CMakeFiles/Laboratoire5_Chrono.dir/flags.make
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.o: ../Fonctions/Temps/temps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bes/CLionProjects/Laboratoire5-Chrono/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.o -c /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Temps/temps.cpp
+
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Temps/temps.cpp > CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.i
+
+CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Temps/temps.cpp -o CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.s
+
 # Object files for target Laboratoire5_Chrono
 Laboratoire5_Chrono_OBJECTS = \
-"CMakeFiles/Laboratoire5_Chrono.dir/main.cpp.o"
+"CMakeFiles/Laboratoire5_Chrono.dir/main.cpp.o" \
+"CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.o" \
+"CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.o" \
+"CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.o"
 
 # External object files for target Laboratoire5_Chrono
 Laboratoire5_Chrono_EXTERNAL_OBJECTS =
 
 Laboratoire5_Chrono: CMakeFiles/Laboratoire5_Chrono.dir/main.cpp.o
+Laboratoire5_Chrono: CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.o
+Laboratoire5_Chrono: CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.o
+Laboratoire5_Chrono: CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Temps/temps.cpp.o
 Laboratoire5_Chrono: CMakeFiles/Laboratoire5_Chrono.dir/build.make
 Laboratoire5_Chrono: CMakeFiles/Laboratoire5_Chrono.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bes/CLionProjects/Laboratoire5-Chrono/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Laboratoire5_Chrono"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bes/CLionProjects/Laboratoire5-Chrono/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Laboratoire5_Chrono"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Laboratoire5_Chrono.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,17 +1,56 @@
 /*
 -----------------------------------------------------------------------------------
-Nom du fichier : <nom du fichier>.<xxx> (xxx = h ou cpp)
-Auteur(s) : <prénom> <nom>
-Date creation : <jj.mm.aaaa>
+Nom du fichier : main.cpp
+Auteur(s) : Paul Gillet, Besjan Sejrani
+Date creation : 10.11.2021
 Description : <à compléter>
 Remarque(s) : <à compléter>
-Compilateur : Mingw-w64 g++ 11.1.0
+Compilateur : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 -----------------------------------------------------------------------------------
 */
 
 #include <iostream>
+#include <limits>
 
+#define VIDER_BUFFER cin.ignore(numeric_limits<streamsize>::max(), '\n')
+
+using namespace std;
 int main() {
-   std::cout << "Hello, World!" << std::endl;
-   return 0;
+
+   // Fonctions
+   // - saisie
+   // - generator
+   // - timer (singleton)
+
+   //--------------------------------------------------
+   // Bonjour
+   //--------------------------------------------------
+
+   cout << "Ce programme fait ..." << endl;
+
+   //--------------------------------------------------
+   // Saisie
+   //--------------------------------------------------
+
+
+
+   //--------------------------------------------------
+   // Calcul
+   //--------------------------------------------------
+
+
+
+   //--------------------------------------------------
+   // Affichage résultat
+   //--------------------------------------------------
+
+
+
+   //--------------------------------------------------
+   // Fin
+   //--------------------------------------------------
+
+   cout << "presser ENTER pour quitter";
+   VIDER_BUFFER;
+   return EXIT_SUCCESS;
 }

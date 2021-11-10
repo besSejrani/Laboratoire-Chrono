@@ -82,6 +82,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Generateur/generateur.cpp">
+			<Option target="Laboratoire5_Chrono"/>
+		</Unit>
+		<Unit filename="/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Generateur/generateur.h">
+			<Option target="Laboratoire5_Chrono"/>
+		</Unit>
+		<Unit filename="/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.cpp">
+			<Option target="Laboratoire5_Chrono"/>
+		</Unit>
+		<Unit filename="/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h">
+			<Option target="Laboratoire5_Chrono"/>
+		</Unit>
+		<Unit filename="/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Temps/temps.cpp">
+			<Option target="Laboratoire5_Chrono"/>
+		</Unit>
+		<Unit filename="/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Temps/temps.h">
+			<Option target="Laboratoire5_Chrono"/>
+		</Unit>
 		<Unit filename="/home/bes/CLionProjects/Laboratoire5-Chrono/main.cpp">
 			<Option target="Laboratoire5_Chrono"/>
 		</Unit>
