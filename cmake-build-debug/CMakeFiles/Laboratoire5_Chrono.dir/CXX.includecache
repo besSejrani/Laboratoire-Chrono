@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h
+iostream
+-
+
+/home/bes/CLionProjects/Laboratoire5-Chrono/main.cpp
+iostream
+-
+limits
+-
+./Fonctions/Saisie/saisie.h
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h
+
