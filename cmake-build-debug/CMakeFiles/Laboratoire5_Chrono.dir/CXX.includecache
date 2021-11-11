@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h
-iostream
--
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Minuteur/minuteur.cpp
+minuteur.h
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Minuteur/minuteur.h
 
-/home/bes/CLionProjects/Laboratoire5-Chrono/main.cpp
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Minuteur/minuteur.h
 iostream
 -
-limits
+ctime
 -
-./Fonctions/Saisie/saisie.h
-/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h
+unistd.h
+-
 
