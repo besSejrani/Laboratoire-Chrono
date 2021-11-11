@@ -1,6 +1,6 @@
 # Laboratoire 05: Chrono
 
-Fonctions
+Fonctionsssss
 - saisie
 - generator
 - timer
