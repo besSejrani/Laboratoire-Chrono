@@ -2,6 +2,8 @@
 #define LABORATOIRE5_CHRONO_SAISIE_H
 
 #include <iostream>
+#include <limits>
+
 using namespace std;
 
 #define VIDER_BUFFER cin.ignore(numeric_limits<streamsize>::max(), '\n')
