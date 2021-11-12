@@ -21,12 +21,11 @@ using namespace std;
 
 #define VIDER_BUFFER cin.ignore(numeric_limits<streamsize>::max(), '\n')
 
+const int LIMITE_INFERIEURE_LANCES    =   1;
+const int LIMITE_SUPERIEURE_LANCES    =  10;
 
-const int LIMITE_INFERIEURE_LANCES =   1;
-const int LIMITE_SUPERIEURE_LANCES =  10;
-
-const int LIMITE_INFERIEURE        =  97; // code ascii pour a
-const int LIMITE_SUPERIEURE        = 122; // code ascii pour z
+const int LIMITE_INFERIEURE_CARACTERE =  97; // code ascii pour a
+const int LIMITE_SUPERIEURE_CARACTERE = 122; // code ascii pour z
 
 int main() {
 
@@ -38,8 +37,8 @@ int main() {
            "course contre la montre." << endl;
 
    cout << "Vous commencerez par definir le nombre de lettre que vous voulez "
-           "genere, comprise entre [" << LIMIT_INFERIEUR << " - "
-           << LIMIT_SUPERIEUR << "]," << endl;
+           "genere, comprise entre [" << LIMITE_INFERIEURE_LANCES << " - "
+           << LIMITE_SUPERIEURE_LANCES << "]," << endl;
 
    cout << "puis vous devrez entrer les valeurs le plus rapidement possible."
         << endl << endl;
@@ -53,7 +52,6 @@ int main() {
 
    int choix = saisieUtilisateur(LIMITE_INFERIEURE_LANCES,
                                  LIMITE_SUPERIEURE_LANCES,"TESTSTS");
-   cout << "mon choix est " << choix << endl;
 
    //--------------------------------------------------
    // Calcul
@@ -64,12 +62,12 @@ int main() {
    int compteurReponseCorrecte=0;
 
    for (int i = 0; i < choix; ++i) {
-      caractereGenere = (char) genererChiffreAleatoire(LIMITE_INFERIEURE,
-                                                       LIMITE_SUPERIEURE);
+      caractereGenere = (char) genererChiffreAleatoire(LIMITE_INFERIEURE_CARACTERE,
+                                                       LIMITE_SUPERIEURE_CARACTERE);
       cout << "Lettre : " << caractereGenere << " : ";
       cout << endl;
       string message = "test"s;
-      saisieUtilisateur(LIMITE_INFERIEURE, LIMITE_SUPERIEURE,message); // boucle de
+      saisieUtilisateur(LIMITE_INFERIEURE_CARACTERE, LIMITE_SUPERIEURE_CARACTERE,message); // boucle de
       // saisie à implémenter
       VIDER_BUFFER;
 
@@ -89,6 +87,7 @@ int main() {
       cout << "Voulez-vous recommencer ? [o/n] : " << endl;
 //      cout << "presser ENTER pour quitter";
 //      VIDER_BUFFER;
-   }while(saisieUtilisateur());
+   }while(saisieUtilisateur(LIMITE_INFERIEURE_CARACTERE,
+                            LIMITE_SUPERIEURE_CARACTERE, "BLAAAA"));
    return EXIT_SUCCESS;
 }

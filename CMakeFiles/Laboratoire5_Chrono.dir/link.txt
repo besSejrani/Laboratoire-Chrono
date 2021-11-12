@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wconversion -Wsign-conversion -pedantic   CMakeFiles/Laboratoire5_Chrono.dir/main.cpp.o CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Saisie/saisie.cpp.o CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Generateur/generateur.cpp.o CMakeFiles/Laboratoire5_Chrono.dir/Fonctions/Minuteur/minuteur.cpp.o  -o Laboratoire5_Chrono 
