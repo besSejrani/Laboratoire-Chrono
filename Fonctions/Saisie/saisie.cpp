@@ -1,27 +1,22 @@
 #include "saisie.h"
 
-int saisieUtilisateur(){
-
-   cout << "Veuillez entrer un chiffre compris entre "
-        << LIMIT_INFERIEUR <<" et " << LIMIT_SUPERIEUR << endl;
+int saisieUtilisateur(int min, int max, string messageErreur){
 
    bool erreurSaisie;
    int choixUtilisateur;
    do {
       cin >> choixUtilisateur;
 
-      erreurSaisie = cin.fail() || choixUtilisateur < LIMIT_INFERIEUR ||
-                     choixUtilisateur > LIMIT_SUPERIEUR;
+      erreurSaisie = cin.fail() || choixUtilisateur < min ||
+                     choixUtilisateur > max;
 
       if(erreurSaisie){
-         cout << "/!\\ Erreur de saisie, la valeur doit etre comprise entre "
-              << LIMIT_INFERIEUR << " et " << LIMIT_SUPERIEUR << endl;
-
+         cout << messageErreur << endl;
          cout << "Essayer a nouveau" << endl;
+
          cin.clear();
       }
       VIDER_BUFFER;
-
    }while(erreurSaisie);
    return choixUtilisateur;
 }

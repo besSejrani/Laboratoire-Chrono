@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono/Fonctions/Generateur/generateur.h
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Generateur/generateur.h
 ctime
 -
 cstdlib
 -
 
-C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono/Fonctions/Minuteur/minuteur.cpp
-minuteur.h
-C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono/Fonctions/Minuteur/minuteur.h
-
-C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono/Fonctions/Minuteur/minuteur.h
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Minuteur/minuteur.h
 iostream
 -
 ctime
@@ -24,21 +20,23 @@ ctime
 unistd.h
 -
 
-C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono/Fonctions/Saisie/saisie.h
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h
 iostream
 -
 limits
 -
+string
+-
 
-C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono/main.cpp
+/home/bes/CLionProjects/Laboratoire5-Chrono/main.cpp
 iostream
 -
 limits
 -
 ./Fonctions/Saisie/saisie.h
-C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono/Fonctions/Saisie/saisie.h
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h
 ./Fonctions/Minuteur/minuteur.h
-C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono/Fonctions/Minuteur/minuteur.h
-Fonctions/Generateur/generateur.h
-C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono/Fonctions/Generateur/generateur.h
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Minuteur/minuteur.h
+./Fonctions/Generateur/generateur.h
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Generateur/generateur.h
 
