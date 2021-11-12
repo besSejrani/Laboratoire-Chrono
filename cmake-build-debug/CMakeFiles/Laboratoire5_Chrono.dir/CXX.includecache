@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Generateur/generateur.h
-ctime
--
-cstdlib
--
-
-/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Minuteur/minuteur.h
-iostream
--
-ctime
--
-unistd.h
--
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.cpp
+saisie.h
+/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h
 
 /home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h
 iostream
@@ -27,16 +17,4 @@ limits
 -
 string
 -
-
-/home/bes/CLionProjects/Laboratoire5-Chrono/main.cpp
-iostream
--
-limits
--
-./Fonctions/Saisie/saisie.h
-/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Saisie/saisie.h
-./Fonctions/Minuteur/minuteur.h
-/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Minuteur/minuteur.h
-./Fonctions/Generateur/generateur.h
-/home/bes/CLionProjects/Laboratoire5-Chrono/Fonctions/Generateur/generateur.h
 
