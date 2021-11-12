@@ -21,6 +21,7 @@ using namespace std;
 
 #define VIDER_BUFFER cin.ignore(numeric_limits<streamsize>::max(), '\n')
 
+
 const int LIMITE_INFERIEURE_LANCES =   1;
 const int LIMITE_SUPERIEURE_LANCES =  10;
 
@@ -28,7 +29,6 @@ const int LIMITE_INFERIEURE        =  97; // code ascii pour a
 const int LIMITE_SUPERIEURE        = 122; // code ascii pour z
 
 int main() {
-
 
    //--------------------------------------------------
    // Bonjour
@@ -38,7 +38,8 @@ int main() {
            "course contre la montre." << endl;
 
    cout << "Vous commencerez par definir le nombre de lettre que vous voulez "
-           "genere, comprise entre MIN et MAX," << endl;
+           "genere, comprise entre [" << LIMIT_INFERIEUR << " - "
+           << LIMIT_SUPERIEUR << "]," << endl;
 
    cout << "puis vous devrez entrer les valeurs le plus rapidement possible."
         << endl << endl;
@@ -75,20 +76,19 @@ int main() {
       if(choix == caractereGenere) {
          compteurReponseCorrecte++;
       }
-   }
 
-   //--------------------------------------------------
-   // Affichage résultat
-   //--------------------------------------------------
+      //--------------------------------------------------
+      // Affichage résultat
+      //--------------------------------------------------
 
-   cout << "Nombre de reponses correctes : " << compteurReponseCorrecte << endl;
+      cout << "Nombre de reponses correctes : " << compteurReponseCorrecte << endl;
 
-   //--------------------------------------------------
-   // Fin
-   //--------------------------------------------------
-   cout << "Merci d'avoir utilise notre programme." << endl;
-   cout << "presser ENTER pour quitter";
-   VIDER_BUFFER;
-
+      //--------------------------------------------------
+      // Fin
+      //--------------------------------------------------
+      cout << "Voulez-vous recommencer ? [o/n] : " << endl;
+//      cout << "presser ENTER pour quitter";
+//      VIDER_BUFFER;
+   }while(saisieUtilisateur());
    return EXIT_SUCCESS;
 }

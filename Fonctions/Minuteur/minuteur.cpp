@@ -12,6 +12,8 @@ Compilateur(s)  : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 
 #include "minuteur.h"
 
+using namespace std;
+
 int minuteur(){
 
    clock_t compteur;

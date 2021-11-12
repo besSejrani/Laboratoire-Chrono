@@ -16,7 +16,6 @@ Compilateur(s)  : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 #include <ctime>
 #include <unistd.h>
 
-using namespace std;
 
 /**
     @brief Minuteur permettant de compter le nombre de secondes entre deux
