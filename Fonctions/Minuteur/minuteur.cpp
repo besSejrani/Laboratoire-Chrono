@@ -1,5 +1,7 @@
 #include "minuteur.h"
 
+using namespace std;
+
 int minuteur(){
 
    clock_t compteur;

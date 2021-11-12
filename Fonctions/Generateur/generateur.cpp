@@ -15,6 +15,7 @@ using namespace std;
 
 int genererChiffreAleatoire(const int& LIMITE_INFERIEURE, const int&
 LIMITE_SUPERIEURE) {
+   //srand(time(NULL));
    int range = LIMITE_SUPERIEURE-LIMITE_INFERIEURE + 1;
    int valeurAleatoire = rand() % range + LIMITE_INFERIEURE;
    return valeurAleatoire;

@@ -5,7 +5,6 @@
 #include <ctime>
 #include <unistd.h>
 
-using namespace std;
 
 int minuteur();
 
