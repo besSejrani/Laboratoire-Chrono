@@ -31,14 +31,15 @@ int saisieUtilisateur(int min, int max, string messageErreur){
 }
 
 char saisieCaratere(string messageErreur){
-   const char CARACTERE_MAX = 'a',
-              CARACTERE_MIN = 'z';
+   const char CARACTERE_MIN = 'a',
+              CARACTERE_MAX = 'z';
    bool erreurSaisie;
    char choixUtilisateur;
    do {
       cin >> choixUtilisateur;
 
-      //erreurSaisie = cin.fail();
+      erreurSaisie = cin.fail() || choixUtilisateur < CARACTERE_MIN
+                                || choixUtilisateur > CARACTERE_MAX;
 
       if(erreurSaisie){
          cout << messageErreur << endl;

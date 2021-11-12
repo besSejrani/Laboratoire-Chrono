@@ -50,30 +50,32 @@ int main() {
    // Saisie
    //--------------------------------------------------
 
-   cout << "Veuillez entrer un chiffre compris entre ["
-        << LIMITE_INFERIEURE_LANCES <<" - " << LIMITE_SUPERIEURE_LANCES << "] : ";
+   do {
 
-   int choix = saisieUtilisateur(LIMITE_INFERIEURE_LANCES,
-                                 LIMITE_SUPERIEURE_LANCES,ERREUR);
+      cout << "Veuillez entrer un chiffre compris entre ["
+           << LIMITE_INFERIEURE_LANCES <<" - " << LIMITE_SUPERIEURE_LANCES << "] : ";
 
-   //--------------------------------------------------
-   // Calcul
-   //--------------------------------------------------
+      int choix = saisieUtilisateur(LIMITE_INFERIEURE_LANCES,
+                                    LIMITE_SUPERIEURE_LANCES,ERREUR);
 
-   char caractereGenere;
-   int compteurReponseCorrecte=0;
-   char caractereSaisie;
+      //--------------------------------------------------
+      // Calcul
+      //--------------------------------------------------
 
-   for (int i = 0; i < choix; ++i) {
-      caractereGenere = (char) genererChiffreAleatoire(LIMITE_INFERIEURE_CARACTERE,
-                                                       LIMITE_SUPERIEURE_CARACTERE);
-      cout << "Lettre : " << caractereGenere << " : ";
+      char caractereGenere;
+      int compteurReponseCorrecte=0;
+      char caractereSaisie;
 
-      caractereSaisie = saisieCaratere(ERREUR);
-      VIDER_BUFFER;
+      for (int i = 0; i < choix; ++i) {
+         caractereGenere = (char) genererChiffreAleatoire(LIMITE_INFERIEURE_CARACTERE,
+                                                          LIMITE_SUPERIEURE_CARACTERE);
+         cout << "Lettre : " << caractereGenere << " : ";
 
-      if(caractereSaisie == caractereGenere) {
-         compteurReponseCorrecte++;
+         caractereSaisie = saisieCaratere(ERREUR);
+
+         if (caractereSaisie == caractereGenere) {
+            compteurReponseCorrecte++;
+         }
       }
 
       //--------------------------------------------------
@@ -86,8 +88,7 @@ int main() {
       // Fin
       //--------------------------------------------------
       cout << "Voulez-vous recommencer ? [o/n] : " << endl;
-//      cout << "presser ENTER pour quitter";
-//      VIDER_BUFFER;
+
    }while(saisieUtilisateur(LIMITE_INFERIEURE_CARACTERE,
                             LIMITE_SUPERIEURE_CARACTERE, ERREUR));
    return EXIT_SUCCESS;
