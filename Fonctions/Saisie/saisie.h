@@ -3,14 +3,15 @@
 
 #include <iostream>
 #include <limits>
+#include <string>
 
 using namespace std;
 
 #define VIDER_BUFFER cin.ignore(numeric_limits<streamsize>::max(), '\n')
 
-const int LIMIT_INFERIEUR = 1;
-const int LIMIT_SUPERIEUR = 10;
 
-int saisieUtilisateur();
+
+int saisieUtilisateur(int min, int max, string messageErreur);
+
 
 #endif //LABORATOIRE5_CHRONO_SAISIE_H
