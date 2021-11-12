@@ -13,9 +13,12 @@ Compilateur    : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 
 using namespace std;
 
+void intialisationSeed() {
+   srand(time(0));
+}
+
 int genererChiffreAleatoire(const int& LIMITE_INFERIEURE,
                             const int& LIMITE_SUPERIEURE) {
-   //srand(time(NULL));
    int range = LIMITE_SUPERIEURE-LIMITE_INFERIEURE + 1;
    int valeurAleatoire = rand() % range + LIMITE_INFERIEURE;
    return valeurAleatoire;

@@ -20,6 +20,7 @@ Compilateur(s)  : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 using namespace std;
 
 #define VIDER_BUFFER cin.ignore(numeric_limits<streamsize>::max(), '\n')
+#define ERREUR "Erreur de saisie"
 
 const int LIMITE_INFERIEURE_LANCES    =   1;
 const int LIMITE_SUPERIEURE_LANCES    =  10;
@@ -27,8 +28,10 @@ const int LIMITE_SUPERIEURE_LANCES    =  10;
 const int LIMITE_INFERIEURE_CARACTERE =  97; // code ascii pour a
 const int LIMITE_SUPERIEURE_CARACTERE = 122; // code ascii pour z
 
+
 int main() {
 
+   intialisationSeed();
    //--------------------------------------------------
    // Bonjour
    //--------------------------------------------------
@@ -47,31 +50,29 @@ int main() {
    // Saisie
    //--------------------------------------------------
 
-   cout << "Veuillez entrer un chiffre compris entre "
-        << LIMITE_INFERIEURE_LANCES <<" et " << LIMITE_SUPERIEURE_LANCES << endl;
+   cout << "Veuillez entrer un chiffre compris entre ["
+        << LIMITE_INFERIEURE_LANCES <<" - " << LIMITE_SUPERIEURE_LANCES << "] : ";
 
    int choix = saisieUtilisateur(LIMITE_INFERIEURE_LANCES,
-                                 LIMITE_SUPERIEURE_LANCES,"TESTSTS");
+                                 LIMITE_SUPERIEURE_LANCES,ERREUR);
 
    //--------------------------------------------------
    // Calcul
    //--------------------------------------------------
 
-   minuteur();
    char caractereGenere;
    int compteurReponseCorrecte=0;
+   char caractereSaisie;
 
    for (int i = 0; i < choix; ++i) {
       caractereGenere = (char) genererChiffreAleatoire(LIMITE_INFERIEURE_CARACTERE,
                                                        LIMITE_SUPERIEURE_CARACTERE);
       cout << "Lettre : " << caractereGenere << " : ";
-      cout << endl;
-      string message = "test"s;
-      saisieUtilisateur(LIMITE_INFERIEURE_CARACTERE, LIMITE_SUPERIEURE_CARACTERE,message); // boucle de
-      // saisie à implémenter
+
+      caractereSaisie = saisieCaratere(ERREUR);
       VIDER_BUFFER;
 
-      if(choix == caractereGenere) {
+      if(caractereSaisie == caractereGenere) {
          compteurReponseCorrecte++;
       }
 
@@ -88,6 +89,6 @@ int main() {
 //      cout << "presser ENTER pour quitter";
 //      VIDER_BUFFER;
    }while(saisieUtilisateur(LIMITE_INFERIEURE_CARACTERE,
-                            LIMITE_SUPERIEURE_CARACTERE, "BLAAAA"));
+                            LIMITE_SUPERIEURE_CARACTERE, ERREUR));
    return EXIT_SUCCESS;
 }

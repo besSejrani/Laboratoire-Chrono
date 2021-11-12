@@ -1,3 +1,3 @@
-/home/bes/CLionProjects/Laboratoire5-Chrono/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bes/CLionProjects/Laboratoire5-Chrono/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/bes/CLionProjects/Laboratoire5-Chrono/cmake-build-debug/CMakeFiles/main.cpp.dir
+C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/CMakeFiles/LaboChrono.dir
+C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

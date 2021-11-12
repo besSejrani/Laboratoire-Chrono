@@ -30,5 +30,6 @@ using namespace std;
 */
 int saisieUtilisateur(int min, int max, string messageErreur);
 
+char saisieCaratere(string messageErreur);
 
 #endif //LABORATOIRE5_CHRONO_SAISIE_H
