@@ -55,6 +55,8 @@ bool saisieCaratere(bool veutContinuer, const string& messageErreur){
    do {
       cin >> choixUtilisateur;
 
+      choixUtilisateur =  tolower(choixUtilisateur);
+
       erreurSaisie = cin.fail() || (choixUtilisateur != 'o' && choixUtilisateur != 'n');
 
       if(erreurSaisie){

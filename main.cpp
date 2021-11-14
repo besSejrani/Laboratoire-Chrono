@@ -86,26 +86,36 @@ int main() {
       }
 
       compteurFin = clock();
-      float tempsTotal = compteurFin - compteurDebut;
+      float tempsTotal = (compteurFin - compteurDebut) / CLOCKS_PER_SEC;
+
+      int moymoyenneTempsEcoule =  tempsTotal / choix ;
 
       //=============================================================================
       //                                Resultat
       //=============================================================================
 
-      char precision = 6;
-
-      cout << fixed << setprecision(precision);
       cout << "Nombre de reponses correctes : " << compteurReponseCorrecte << endl;
-      cout << "temps ecoule : " << tempsTotal / CLOCKS_PER_SEC <<endl <<
-      endl;
+      cout << "temps ecoule : " << tempsTotal  <<endl << endl;
+      cout << " => " << moymoyenneTempsEcoule << "sec par lettre" << endl << endl;
 
 
       //=============================================================================
       //                        Interaction utilisateur
       //=============================================================================
 
-      cout << "Voulez-vous recommencer ? [o/n] : " << endl;
+      cout << "Voulez-vous recommencer ? [o/n] : ";
 
    }while(saisieCaratere(veutContinuer,ERREUR));
+
+   //================================================================================
+   //                                 Message d'erreur
+   //================================================================================
+
+   cout << endl;
+   cout << "Merci d'avoir utilise notre programme."<< endl;
+   cout << "Presser ENTER pour quitter" <<endl;
+
+   VIDER_BUFFER;
+
    return EXIT_SUCCESS;
 }
