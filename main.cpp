@@ -12,9 +12,10 @@ Compilateur(s)  : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 #include <iostream>
 #include <cstdlib>
 #include <limits>
+#include <ctime>
+#include <iomanip>
 
 #include "./Fonctions/Saisie/saisie.h"
-#include "./Fonctions/Minuteur/minuteur.h"
 #include "./Fonctions/Generateur/generateur.h"
 
 using namespace std;
@@ -32,9 +33,10 @@ const int LIMITE_SUPERIEURE_CARACTERE = 122; // code ascii pour z
 int main() {
 
    intialisationSeed();
-   //--------------------------------------------------
-   // Bonjour
-   //--------------------------------------------------
+
+   //================================================================================
+   //                             Message d'accueil
+   //================================================================================
 
    cout << "Ce programme permet de tester votre dexterite au clavier, c'est une "
            "course contre la montre." << endl;
@@ -46,25 +48,29 @@ int main() {
    cout << "puis vous devrez entrer les valeurs le plus rapidement possible."
         << endl << endl;
 
-   //--------------------------------------------------
-   // Saisie
-   //--------------------------------------------------
+   //================================================================================
+   //                               Saisie utilisateur
+   //================================================================================
 
    do {
-
       cout << "Veuillez entrer un chiffre compris entre ["
            << LIMITE_INFERIEURE_LANCES <<" - " << LIMITE_SUPERIEURE_LANCES << "] : ";
 
       int choix = saisieUtilisateur(LIMITE_INFERIEURE_LANCES,
                                     LIMITE_SUPERIEURE_LANCES,ERREUR);
 
-      //--------------------------------------------------
-      // Calcul
-      //--------------------------------------------------
+      //=============================================================================
+      //                                  Calcul
+      //=============================================================================
 
       char caractereGenere;
-      int compteurReponseCorrecte=0;
+      int  compteurReponseCorrecte = 0;
       char caractereSaisie;
+
+      clock_t compteurDebut;
+      clock_t compteurFin;
+
+      compteurDebut = clock();
 
       for (int i = 0; i < choix; ++i) {
          caractereGenere = (char) genererChiffreAleatoire(LIMITE_INFERIEURE_CARACTERE,
@@ -78,18 +84,31 @@ int main() {
          }
       }
 
-      //--------------------------------------------------
-      // Affichage résultat
-      //--------------------------------------------------
+      compteurFin = clock();
+      float tempsTotal = compteurFin - compteurDebut;
 
+      //=============================================================================
+      //                                Resultat
+      //=============================================================================
+
+      char precision = 6;
+
+      cout << fixed << setprecision(precision);
       cout << "Nombre de reponses correctes : " << compteurReponseCorrecte << endl;
+      cout << "temps ecoule : " << tempsTotal / CLOCKS_PER_SEC <<endl <<
+      endl;
 
-      //--------------------------------------------------
-      // Fin
-      //--------------------------------------------------
+      //=============================================================================
+      //                        Interaction utilisateur
+      //=============================================================================
       cout << "Voulez-vous recommencer ? [o/n] : " << endl;
 
    }while(saisieUtilisateur(LIMITE_INFERIEURE_CARACTERE,
                             LIMITE_SUPERIEURE_CARACTERE, ERREUR));
+
+   //================================================================================
+   //                               Message de fin
+   //================================================================================
+
    return EXIT_SUCCESS;
 }

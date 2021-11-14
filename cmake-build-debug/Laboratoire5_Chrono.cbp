@@ -8,102 +8,96 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug"/>
+				<Option working_dir="/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="LaboChrono">
-				<Option output="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/LaboChrono.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaboChrono"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="LaboChrono/fast">
-				<Option output="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/LaboChrono.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="c:\program files\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaboChrono/fast"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug"/>
+				<Option working_dir="/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LaboChrono">
+				<Option output="/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/LaboChrono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaboChrono"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LaboChrono/fast">
+				<Option output="/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/LaboChrono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaboChrono/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bes/CLionProjects/Laboratoire-Chrono/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/Fonctions/Generateur/generateur.cpp">
+		<Unit filename="/home/bes/CLionProjects/Laboratoire-Chrono/Fonctions/Generateur/generateur.cpp">
 			<Option target="LaboChrono"/>
 		</Unit>
-		<Unit filename="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/Fonctions/Generateur/generateur.h">
+		<Unit filename="/home/bes/CLionProjects/Laboratoire-Chrono/Fonctions/Generateur/generateur.h">
 			<Option target="LaboChrono"/>
 		</Unit>
-		<Unit filename="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/Fonctions/Minuteur/minuteur.cpp">
+		<Unit filename="/home/bes/CLionProjects/Laboratoire-Chrono/Fonctions/Saisie/saisie.cpp">
 			<Option target="LaboChrono"/>
 		</Unit>
-		<Unit filename="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/Fonctions/Minuteur/minuteur.h">
+		<Unit filename="/home/bes/CLionProjects/Laboratoire-Chrono/Fonctions/Saisie/saisie.h">
 			<Option target="LaboChrono"/>
 		</Unit>
-		<Unit filename="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/Fonctions/Saisie/saisie.cpp">
+		<Unit filename="/home/bes/CLionProjects/Laboratoire-Chrono/main.cpp">
 			<Option target="LaboChrono"/>
 		</Unit>
-		<Unit filename="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/Fonctions/Saisie/saisie.h">
-			<Option target="LaboChrono"/>
-		</Unit>
-		<Unit filename="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/main.cpp">
-			<Option target="LaboChrono"/>
-		</Unit>
-		<Unit filename="C:/Users/Paul/Documents/GitHub/Laboratoire-Chrono2/CMakeLists.txt">
+		<Unit filename="/home/bes/CLionProjects/Laboratoire-Chrono/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
