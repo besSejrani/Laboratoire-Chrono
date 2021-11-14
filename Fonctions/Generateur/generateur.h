@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------------
-Nom du fichier : main.cpp
+Nom du fichier : generateur.h
 Auteur(s)      : Paul Gillet, Besjan Sejrani
 Date creation  : 10.11.2021
 
