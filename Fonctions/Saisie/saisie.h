@@ -22,14 +22,29 @@ using namespace std;
 
 
 /**
-    @brief Retourne la valeur entre par l'utilisateur, compris entre les
-    parametres min et max.
+    @brief Retourne la valeur entree par l'utilisateur, compris entre les
+    parametres min et max et retourne un entier.
     @param min La valeur minimal que l'utilisateur doit entrer.
     @param max La valeur maximal que l'utilisateur doit entrer.
     @param messageErreur Le message d-erreur a afficher en cas d'erreur.
 */
-int saisieUtilisateur(int min, int max, string messageErreur);
+int saisieUtilisateur(int min, int max, const string& messageErreur);
 
-char saisieCaratere(string messageErreur);
+/**
+    @brief Retourne la valeur entree par l'utilisateur, compris entre les
+    parametres min et max et retourne un char.
+    @param min La valeur minimal que l'utilisateur doit entrer.
+    @param max La valeur maximal que l'utilisateur doit entrer.
+    @param messageErreur Le message d'erreur a afficher en cas d'erreur.
+*/
+char saisieCaratere(char max_char, char min_char,const string& messageErreur);
+
+/**
+    @brief Retourne le souhait de l'utilisateur de recommencer ou non le jeu.
+    @param bool True par défaut, passe à false si l'utilisateur ne veut pas
+    recommencer.
+    @param messageErreur Le message d'erreur a afficher en cas d'erreur.
+*/
+bool saisieCaratere(bool veutRecommencer, const string& messageErreur);
 
 #endif //LABORATOIRE5_CHRONO_SAISIE_H

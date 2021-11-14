@@ -11,7 +11,7 @@ Compilateur(s)  : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 
 #include "saisie.h"
 
-int saisieUtilisateur(int min, int max, string messageErreur){
+int saisieUtilisateur(int min, int max, const string& messageErreur){
    bool erreurSaisie;
    int choixUtilisateur;
    do {
@@ -30,16 +30,14 @@ int saisieUtilisateur(int min, int max, string messageErreur){
    return choixUtilisateur;
 }
 
-char saisieCaratere(string messageErreur){
-   const char CARACTERE_MIN = 'a',
-              CARACTERE_MAX = 'z';
+char saisieCaratere(char min_char, char max_char, const string& messageErreur){
    bool erreurSaisie;
    char choixUtilisateur;
    do {
       cin >> choixUtilisateur;
 
-      erreurSaisie = cin.fail() || choixUtilisateur < CARACTERE_MIN
-                                || choixUtilisateur > CARACTERE_MAX;
+      erreurSaisie = cin.fail() || choixUtilisateur < min_char
+                                || choixUtilisateur > max_char;
 
       if(erreurSaisie){
          cout << messageErreur << endl;
@@ -49,5 +47,27 @@ char saisieCaratere(string messageErreur){
       VIDER_BUFFER;
    }while(erreurSaisie);
    return choixUtilisateur;
+}
+
+bool saisieCaratere(bool veutContinuer, const string& messageErreur){
+   bool erreurSaisie;
+   char choixUtilisateur;
+   do {
+      cin >> choixUtilisateur;
+
+      erreurSaisie = cin.fail() || (choixUtilisateur != 'o' && choixUtilisateur != 'n');
+
+      if(erreurSaisie){
+         cout << messageErreur << endl;
+         cin.clear();
+      }
+
+      if(choixUtilisateur == 'n') {
+         veutContinuer = false;
+      }
+
+      VIDER_BUFFER;
+   }while(erreurSaisie);
+   return veutContinuer;
 }
 

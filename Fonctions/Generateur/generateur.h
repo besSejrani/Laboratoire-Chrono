@@ -12,9 +12,6 @@ Compilateur    : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 #ifndef LABORATOIRE5_CHRONO_GENERATEUR_H
 #define LABORATOIRE5_CHRONO_GENERATEUR_H
 
-#include <ctime>
-#include <cstdlib>
-
 /**
     @brief Genere un chiffre aleatoire comprise entre l'intervale min inclu et
     max inclu.

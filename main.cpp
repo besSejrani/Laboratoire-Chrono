@@ -11,7 +11,6 @@ Compilateur(s)  : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 
 #include <iostream>
 #include <cstdlib>
-#include <limits>
 #include <ctime>
 #include <iomanip>
 
@@ -34,6 +33,7 @@ int main() {
 
    intialisationSeed();
 
+   bool veutContinuer = true;
    //================================================================================
    //                             Message d'accueil
    //================================================================================
@@ -77,7 +77,8 @@ int main() {
                                                           LIMITE_SUPERIEURE_CARACTERE);
          cout << "Lettre : " << caractereGenere << " : ";
 
-         caractereSaisie = saisieCaratere(ERREUR);
+         caractereSaisie = saisieCaratere(LIMITE_INFERIEURE_CARACTERE,
+                                          LIMITE_SUPERIEURE_CARACTERE,ERREUR);
 
          if (caractereSaisie == caractereGenere) {
             compteurReponseCorrecte++;
@@ -98,17 +99,13 @@ int main() {
       cout << "temps ecoule : " << tempsTotal / CLOCKS_PER_SEC <<endl <<
       endl;
 
+
       //=============================================================================
       //                        Interaction utilisateur
       //=============================================================================
+
       cout << "Voulez-vous recommencer ? [o/n] : " << endl;
 
-   }while(saisieUtilisateur(LIMITE_INFERIEURE_CARACTERE,
-                            LIMITE_SUPERIEURE_CARACTERE, ERREUR));
-
-   //================================================================================
-   //                               Message de fin
-   //================================================================================
-
+   }while(saisieCaratere(veutContinuer,ERREUR));
    return EXIT_SUCCESS;
 }

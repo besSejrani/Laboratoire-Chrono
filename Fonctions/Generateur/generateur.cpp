@@ -11,10 +11,13 @@ Compilateur    : Mingw-w64 g++ 11.2.0, gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 
 #include "generateur.h"
 
+#include <ctime>
+#include <cstdlib>
+
 using namespace std;
 
 void intialisationSeed() {
-   srand(time(0));
+   srand(time(NULL));
 }
 
 int genererChiffreAleatoire(const int& LIMITE_INFERIEURE,
